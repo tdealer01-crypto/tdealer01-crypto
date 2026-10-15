@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+<title id="title">DSG ONE — Autonomy with proof</title>
+<desc id="desc">Cinematic midnight blue and ultraviolet AI governance artwork, with glowing policy orbits and the message Autonomy. With proof.</desc>
+<defs>
+ <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050814"/><stop offset=".5" stop-color="#101735"/><stop offset="1" stop-color="#080D20"/></linearGradient>
+ <radialGradient id="blue" cx="73%" cy="48%" r="58%"><stop stop-color="#2879DB" stop-opacity=".33"/><stop offset=".6" stop-color="#3D44A8" stop-opacity=".10"/><stop offset="1" stop-color="#060B1C" stop-opacity="0"/></radialGradient>
+ <radialGradient id="violet" cx="85%" cy="72%" r="50%"><stop stop-color="#8C52FF" stop-opacity=".23"/><stop offset="1" stop-color="#8C52FF" stop-opacity="0"/></radialGradient>
+ <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#64F5F4"/><stop offset=".54" stop-color="#9CB4FF"/><stop offset="1" stop-color="#A785FF"/></linearGradient>
+ <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#62EDFA"/><stop offset=".6" stop-color="#836AFF"/><stop offset="1" stop-color="#38C6E1"/></linearGradient>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8BB6FF" stroke-width=".65" opacity=".15"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="11"/></filter>
+ <clipPath id="frame"><rect x="1" y="1" width="1278" height="438" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1280" height="440" fill="url(#night)"/>
+<rect width="1280" height="440" fill="url(#blue)"/>
+<rect width="1280" height="440" fill="url(#violet)"/>
+<rect width="1280" height="440" fill="url(#grid)"/>
+<g><circle cx="81" cy="43" r="1.8" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="272" cy="132" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="463" cy="221" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="654" cy="310" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="845" cy="399" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="1036" cy="88" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="1227" cy="177" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="158" cy="266" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="349" cy="355" r="1.8" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="540" cy="44" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="731" cy="133" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="922" cy="222" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="1113" cy="311" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="44" cy="400" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="235" cy="89" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="426" cy="178" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="617" cy="267" r="1.8" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="808" cy="356" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="999" cy="45" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="1190" cy="134" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="121" cy="223" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="312" cy="312" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="503" cy="401" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="694" cy="90" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="885" cy="179" r="1.8" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="1076" cy="268" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="1267" cy="357" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="198" cy="46" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="389" cy="135" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="580" cy="224" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="771" cy="313" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="962" cy="402" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="1153" cy="91" r="1.8" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="84" cy="180" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="275" cy="269" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="466" cy="358" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="657" cy="47" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="848" cy="136" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="1039" cy="225" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="1230" cy="314" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="161" cy="403" r="1.8" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="352" cy="92" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="543" cy="181" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="734" cy="270" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="925" cy="359" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="1116" cy="48" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="47" cy="137" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="238" cy="226" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="429" cy="315" r="1.8" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="620" cy="404" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="811" cy="93" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="1002" cy="182" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="1193" cy="271" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="124" cy="360" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="315" cy="49" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="506" cy="138" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="697" cy="227" r="1.8" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="888" cy="316" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="1079" cy="405" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="10" cy="94" r="0.75" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="201" cy="183" r="0.75" fill="#B7D5FF" opacity="0.12"/>
+<circle cx="392" cy="272" r="0.75" fill="#B7D5FF" opacity="0.21"/>
+<circle cx="583" cy="361" r="0.75" fill="#B7D5FF" opacity="0.29"/>
+<circle cx="774" cy="50" r="0.75" fill="#B7D5FF" opacity="0.38"/>
+<circle cx="965" cy="139" r="1.8" fill="#B7D5FF" opacity="0.46"/>
+<circle cx="1156" cy="228" r="0.75" fill="#B7D5FF" opacity="0.12"/></g>
+<path d="M-60 365 C300 300 485 465 850 310 S1210 100 1400 70" fill="none" stroke="#19DDF6" stroke-width="2" opacity=".12"/>
+<path d="M-40 390 C320 330 610 505 885 342 S1170 165 1350 144" fill="none" stroke="#8D72FF" stroke-width="2" opacity=".13"/>
+<path d="M0 422 H1280" stroke="#7FA2E2" opacity=".19"/>
+<g transform="translate(1030 220)">
+ <circle r="168" fill="none" stroke="#5FA7F1" stroke-width="1" opacity=".18"/>
+ <circle r="140" fill="none" stroke="#A49BFF" stroke-dasharray="3 12" stroke-width="1.5" opacity=".38"/>
+ <circle r="110" fill="none" stroke="url(#rim)" stroke-width="2" opacity=".80"/>
+ <circle r="82" fill="#0D193B" stroke="#6AB8E8" opacity=".92"/>
+ <circle r="53" fill="#142A55" stroke="#76E8F8" stroke-width="1.8"/>
+ <circle r="36" fill="#1A4582" filter="url(#glow)" opacity=".67"/>
+ <path d="M-28 0L-8 20L30 -24" fill="none" stroke="#90F9F1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+ <circle cx="0" cy="-110" r="8" fill="#76F9E9"/><circle cx="110" cy="0" r="8" fill="#B38CFF"/><circle cx="0" cy="110" r="8" fill="#76F9E9"/><circle cx="-110" cy="0" r="8" fill="#B38CFF"/>
+ <path d="M0 -110L0 -82M110 0H82M0 110V82M-110 0H-82" stroke="url(#beam)" stroke-width="2.8"/>
+ <g font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#CFDCFF">
+  <text x="-5" y="-151" text-anchor="middle">PLAN</text><text x="154" y="-3" text-anchor="middle">ALLOW</text>
+  <text x="0" y="160" text-anchor="middle">PROVE</text><text x="-155" y="-3" text-anchor="middle">ACT</text>
+ </g>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+ <rect x="64" y="50" width="11" height="11" rx="2" fill="#70EFEB"/>
+ <text x="88" y="60" fill="#A7D8F4" font-size="16" font-weight="700" letter-spacing="5">DSG ONE  /  GOVERNED AI</text>
+ <text x="62" y="174" fill="#F4F8FF" font-size="79" font-weight="800" letter-spacing="-2">AUTONOMY.</text>
+ <text x="62" y="261" fill="url(#beam)" font-size="82" font-weight="800" letter-spacing="-2">WITH PROOF.</text>
+ <rect x="64" y="291" width="530" height="2" rx="1" fill="url(#beam)" opacity=".8"/>
+ <text x="64" y="331" fill="#CFDCF6" font-size="24" font-weight="500">AI can propose. Authority must be proven.</text>
+ <text x="64" y="390" fill="#88A4CE" font-size="14" font-weight="600" letter-spacing="2">PLAN  /  POLICY  /  APPROVAL  /  EXECUTION  /  EVIDENCE</text>
+</g>
+</g>
+<rect x="1" y="1" width="1278" height="438" rx="22" fill="none" stroke="#47669C" stroke-width="2" opacity=".62"/>
+</svg>
