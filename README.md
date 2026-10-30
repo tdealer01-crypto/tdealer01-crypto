@@ -22,6 +22,14 @@
 
 ---
 
+### Public Production evidence — 30 October 2026
+
+**[Evidence page — ไทย / English](https://dsg-public-evidence.shipstatic.com/)** · **[Zenodo v1.2.0 — DOI 10.5281/zenodo.23796173](https://zenodo.org/records/23796173)** · **[GitHub Release v1.2.0](https://github.com/tdealer01-crypto/doi/releases/tag/v1.2.0)**
+
+The public package documents one NVIDIA Nemotron API read-only Workroom/browser/Memory acceptance tied to an exact source and image digest. The archive's checksums and all 24 files were checked against the exact release commit. **[Repeat the public archive checks](https://github.com/tdealer01-crypto/doi/blob/main/docs/VERIFY_RELEASE_V1_2_0.md).**
+
+Primary execution records and the original internally verified Ed25519 CI payload remain private. Independent public Production E2E reproduction remains unverified. See the **[evidence and limitations](https://github.com/tdealer01-crypto/doi/blob/v1.2.0/docs/DSG_NVIDIA_PRODUCTION_PUBLIC_PROOF_20261030.md)**.
+
 ### The idea
 
 > **Powerful agents should be able to do real work. Their permission to act should never be invented by the model.**
