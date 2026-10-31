@@ -22,13 +22,57 @@
 
 ---
 
-### Public Production evidence — 30 October 2026
+### Latest public evidence — 30 October 2026 release
 
-**[Evidence page — ไทย / English](https://dsg-public-evidence.shipstatic.com/)** · **[Zenodo v1.2.0 — DOI 10.5281/zenodo.23796173](https://zenodo.org/records/23796173)** · **[GitHub Release v1.2.0](https://github.com/tdealer01-crypto/doi/releases/tag/v1.2.0)**
+**Verified publication/archive, not independently reproduced public Production E2E.** The public evidence package is DSG Spacetime **v1.2.0**, published on **30 October 2026**. This is the latest publication verified in the linked public records as checked on **1 November 2026**; this check does **not** represent a new Production execution on 1 November.
 
-The public package documents one NVIDIA Nemotron API read-only Workroom/browser/Memory acceptance tied to an exact source and image digest. The archive's checksums and all 24 files were checked against the exact release commit. **[Repeat the public archive checks](https://github.com/tdealer01-crypto/doi/blob/main/docs/VERIFY_RELEASE_V1_2_0.md).**
+**[OPEN PUBLIC EVIDENCE (TH/EN)](https://dsg-public-evidence.shipstatic.com/)** · **[EVIDENCE STATUS AND SCOPE](docs/EVIDENCE_STATUS_20261101.md)** · **[Machine-readable evidence](https://dsg-public-evidence.shipstatic.com/evidence.json)**
 
-Primary execution records and the original internally verified Ed25519 CI payload remain private. Independent public Production E2E reproduction remains unverified. See the **[evidence and limitations](https://github.com/tdealer01-crypto/doi/blob/v1.2.0/docs/DSG_NVIDIA_PRODUCTION_PUBLIC_PROOF_20261030.md)**.
+| Open and verify | What it proves |
+|:--|:--|
+| **[Zenodo v1.2.0 / DOI 10.5281/zenodo.23796173](https://zenodo.org/records/23796173)** | Citable dated public archive |
+| **[GitHub release v1.2.0](https://github.com/tdealer01-crypto/doi/releases/tag/v1.2.0)** | Exact public release |
+| **[Release integrity / 24-file verification](https://github.com/tdealer01-crypto/doi/blob/main/docs/VERIFY_RELEASE_V1_2_0.md)** | Reproduce archive checksum and signed-commit API checks |
+| **[Production evidence and limitations](https://github.com/tdealer01-crypto/doi/blob/v1.2.0/docs/DSG_NVIDIA_PRODUCTION_PUBLIC_PROOF_20261030.md)** | Scoped read-only NVIDIA Workroom/browser/Memory acceptance; private-primary-record limitations |
+| **[Public reproduction protocol](https://github.com/tdealer01-crypto/doi/blob/main/docs/PUBLIC_REPRODUCTION_PROTOCOL_20261030.md)** | Which checks are public, access-restricted, or still unverified |
+| **[Publication status](https://github.com/tdealer01-crypto/doi/blob/main/PUBLICATION_STATUS.md)** | Release commit, SHA-256, archive ingestion and date |
+
+**Truth boundary:** the specified NVIDIA Nemotron API read-only Workroom/browser/Memory slice is documented against a pinned source and serving-image digest. Original production execution records and the Ed25519 CI payload remain private. No independent public Production E2E replay, arbitrary device execution, or current universal agent success is claimed. More recent development activity is **not** automatically a new public evidence release.
+
+### See an actual demo and try a verified tag
+
+[![Recorded GitHub Actions demo result](https://raw.githubusercontent.com/tdealer01-crypto/dsg-secure-deploy-gate-action/main/docs/media/demo-workflow-success.jpg)](https://github.com/tdealer01-crypto/dsg-gate-demo-nextjs)
+
+**[View the real GitHub Actions demo repository](https://github.com/tdealer01-crypto/dsg-gate-demo-nextjs)** · **[Verified Execution Gate documentation](https://github.com/tdealer01-crypto/dsg-secure-deploy-gate-action)**
+
+The image is an existing GitHub Actions demo screenshot, **not** a new live Production E2E recording. A verified 10-second Production GIF is **not published**; one should only be added after a real capture has been reviewed and sanitized.
+
+**Quick Start (GitHub Actions, v1 readiness check):** create `.github/workflows/dsg-readiness.yml` in a GitHub repository and replace `https://your-app.example/health` with your real HTTP 200 readiness URL:
+
+```yaml
+name: DSG readiness evidence
+on: [workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  dsg-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check readiness with DSG
+        uses: tdealer01-crypto/dsg-secure-deploy-gate-action@v1.1.0
+        with:
+          preset: basic
+          readiness_url: https://your-app.example/health
+          require_json_ok: 'false'
+      - name: Show evidence artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dsg-readiness-evidence
+          path: dsg-evidence.json
+```
+
+**Where to see the result:** GitHub repository → **Actions** → **DSG readiness evidence** → **Run workflow** → job result / `dsg-readiness-evidence` artifact. This tests **readiness**, not full governed execution. The `v1.1.0` Action tag and its input contract were checked against the real repository; do not substitute undocumented CLI commands or an unverified release tag.
 
 ### The idea
 
