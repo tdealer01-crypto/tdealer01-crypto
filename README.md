@@ -22,6 +22,14 @@
 
 ---
 
+### New public website-release proof — 2 November 2026
+
+**DSG ONE website release: PASS** for exact pinned source `ccee11e6220af294da39353192622d99844de1b5` and image digest. A **third-party no-login Python check actually passed** the current public status identity and all nine documented public URLs (10 endpoints total); it did not repeat private AWS/GitHub OIDC authentication.
+
+**[Release proof and limits (TH/EN)](https://github.com/tdealer01-crypto/doi/blob/main/docs/DSG_ONE_WEBSITE_SHIP_PROOF_20261102.md)** · **[Public evidence JSON](https://github.com/tdealer01-crypto/doi/blob/main/docs/evidence/DSG_ONE_WEBSITE_SHIP_20261102.json)** · **[Runnable Python verifier](https://github.com/tdealer01-crypto/doi/blob/main/docs/verify_dsg_one_website_ship.py)**
+
+**Truth boundary:** v1.3.0 is still NOT RELEASED, and Workroom Claim→Checkpoint→Resume or entire Agent/Native/Cinema E2E is NOT VERIFIED. The archived v1.2.0 DOI below is unchanged.
+
 ### Latest public evidence — 30 October 2026 release
 
 **Verified publication/archive, not independently reproduced public Production E2E.** The public evidence package is DSG Spacetime **v1.2.0**, published on **30 October 2026**. This is the latest publication verified in the linked public records as checked on **1 November 2026**; this check does **not** represent a new Production execution on 1 November.
