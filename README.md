@@ -9,6 +9,8 @@
   <p>
     <a href="https://dsg.pics"><strong>Explore DSG ONE ↗</strong></a>
     &nbsp;·&nbsp;
+    <a href="https://dsg-3.gitbook.io/dsg-docs/dsg-docs/dsg-one-canonical-7-docs/verification/android13-native-production-evidence-2026-11-03"><strong>Production Evidence ↗</strong></a>
+    &nbsp;·&nbsp;
     <a href="https://github.com/tdealer01-crypto/DSG-Spacetime-Source"><strong>Explore Spacetime ↗</strong></a>
     &nbsp;·&nbsp;
     <a href="https://github.com/tdealer01-crypto?tab=repositories"><strong>Public repositories ↗</strong></a>
@@ -22,6 +24,38 @@
 
 ---
 
+### Latest verified production milestones — 3 November 2026 (ICT)
+
+**DSG ONE / DSG Spacetime — evidence-first agent execution.** The following are **owner-controlled, dated production results**, not proof that every AI Agent, device, or customer workflow completes end to end.
+
+**Verified release gates:**
+
+| Scope | What passed | Evidence |
+|:--|:--|:--|
+| **Spacetime production image** | Exact-main CI and Build, pinned source/image identity; ECR scan **COMPLETE, 0 findings** at inspection | [CI #41662202368](https://github.com/tdealer01-crypto/DSG-Private-Production-Runtime/actions/runs/41662202368) · [Build #41662202353](https://github.com/tdealer01-crypto/DSG-Private-Production-Runtime/actions/runs/41662202353) |
+| **Owner-governed production promotion** | Owner-protected signed-image workflow and public HTTPS checks | [Owner Image Release #41677352169](https://github.com/tdealer01-crypto/DSG-Private-Production-Runtime/actions/runs/41677352169) |
+| **Second Android Native device** | Atomic host activation, **5 additive signed routes** in the host contract; original device and peers preserved | [Android 13 activation #41678418832](https://github.com/tdealer01-crypto/DSG-Private-Production-Runtime/actions/runs/41678418832) |
+| **DSG ONE public website** | Exact-main CI/Build, separate ECR image with completed zero-finding scan; owner Ship and public serving source-SHA readback | [Website CI #41685702936](https://github.com/tdealer01-crypto/DSG-Private-Production-Runtime/actions/runs/41685702936) · [Build #41685703027](https://github.com/tdealer01-crypto/DSG-Private-Production-Runtime/actions/runs/41685703027) · [Owner Ship #41686912248](https://github.com/tdealer01-crypto/DSG-Private-Production-Runtime/actions/runs/41686912248) |
+
+**Pinned release identities (two distinct images):**
+
+- **Spacetime / Android 13 host activation source:** `b8347d175a96613f2f5a628900198bbed4bc6351`  
+  **Image digest:** `sha256:3552940f2c26d657dfca634046e066ef5aa94589ee9611a346018e42122067c2`
+- **DSG ONE website Ship source:** `8b1954b5178353729da53382c1a9001ed321eecb`  
+  **Image digest:** `sha256:12cfc0f03f0ed097977f90d8bcd23d48e66aeb9da9ee3270bb0bd1721309e9e6`
+
+**Public evidence and independent-review instructions**
+
+**[Public GitBook: Android 13 Production Evidence](https://dsg-3.gitbook.io/dsg-docs/dsg-docs/dsg-one-canonical-7-docs/verification/android13-native-production-evidence-2026-11-03)** · **[DSG ONE verification page](https://dsg.pics/verification)** · **[Dated website evidence page](https://dsg.pics/verification/android13-native-production-evidence-2026-11-03)** · **[AI-readable Markdown](https://dsg.pics/production-evidence-2026-11-03.md)**
+
+To reproduce responsibly: start with the public dated GitBook report and compare the listed immutable SHA/digest and workflow IDs; obtain **authorized read-only access** for private GitHub Actions logs and AWS ECR scan records; then execute **separate** real bound-device/provider result, wrong-device denial, and Evidence/Replay tests before calling those paths E2E verified. The last two new website URLs have source and successful website Ship proof, but a **separate anonymous HTTP 200 check for those exact pages was not independently recorded** in the latest audit.
+
+> **Truth boundary:** `SECOND_DEVICE_PROVIDER_E2E=NOT_VERIFIED` in the actual Android 13 activation logs. Workroom Claim → Checkpoint → Resume → real provider reply, external-user isolation, owner human MFA/OTP E2E and full-system Agent autonomy are **NOT VERIFIED / PENDING**. Private GitHub workflows are **not publicly inspectable without permissions**. Zero ECR findings is a point-in-time scan result, not a perpetual security guarantee or certification.
+
+**For auditors and pilot partners:** DSG ONE welcomes scoped evaluations with an explicit plan, allowed provider action, expected result, negative authorization test, and evidence-replay acceptance criteria. We publish what passed, what did not, and what an independent reviewer still needs.
+
+---
+
 ### New public website-release proof — 2 November 2026
 
 **DSG ONE website release: PASS** for exact pinned source `ccee11e6220af294da39353192622d99844de1b5` and image digest. A **third-party no-login Python check actually passed** the current public status identity and all nine documented public URLs (10 endpoints total); it did not repeat private AWS/GitHub OIDC authentication.
@@ -30,7 +64,7 @@
 
 **Truth boundary:** v1.3.0 is still NOT RELEASED, and Workroom Claim→Checkpoint→Resume or entire Agent/Native/Cinema E2E is NOT VERIFIED. The archived v1.2.0 DOI below is unchanged.
 
-### Latest public evidence — 30 October 2026 release
+### Archived public evidence — 30 October 2026 release
 
 **Verified publication/archive, not independently reproduced public Production E2E.** The public evidence package is DSG Spacetime **v1.2.0**, published on **30 October 2026**. This is the latest publication verified in the linked public records as checked on **1 November 2026**; this check does **not** represent a new Production execution on 1 November.
 
